@@ -7,7 +7,7 @@ class primeNumbers
        //Empty String
        String  primeNumbers = "";
 
-       for (i = 1; i <= 100; i++)         
+       for (i = 1; i <= 500; i++)         
        { 		  	  
           int counter=0; 	  
           for(num =i; num>=1; num--)
@@ -23,7 +23,8 @@ class primeNumbers
 	     primeNumbers = primeNumbers + i + " ";
 	  }	
        }	
-       System.out.println("Prime numbers from 1 to 100 are :");
+       System.out.println("Prime numbers from 1 to 500 are :");
        System.out.println(primeNumbers);
    }
+
 }
